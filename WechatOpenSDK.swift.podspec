@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WechatOpenSDK.swift'
-  s.version          = '1.8.3.2'
+  s.version          = '1.8.3.3'
   s.platform         = :ios, "9.0"
   s.summary          = '微信sdk马甲,方便swift调用'
   s.description      = '微信sdk马甲,方便swift调用'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
      mkdir sdk/Modules
      touch sdk/Modules/module.modulemap
      cat <<-EOF > sdk/Modules/module.modulemap
-     framework module iflyMSC {
+     framework module WechatOpenSDK.swift {
 		 header "WechatAuthSDK.h"
 		 header "WXApi.h"
 		 header "WXApiObject.h"
